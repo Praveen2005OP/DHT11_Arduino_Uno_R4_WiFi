@@ -8,8 +8,6 @@ void setup() {
     Serial.begin(9600);
     dht.begin();
     Serial.println("DHT11 initialized");
-    delay(2000);
-    // return;
 }
 
 void loop() {
